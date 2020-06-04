@@ -4,7 +4,7 @@
 title: Mario Mueller
 
 # Short description of your site
-description: PhD Student at the Cologne Institute for Information Systems
+description: PhD Student at the University of Cologne
 
 # Your name to show in the footer
 author: Mario Mueller
@@ -13,10 +13,7 @@ author: Mario Mueller
 
 navbar-links:
   Home: "index"
-  About Me: "aboutme"
-  Projects: "projects"
   Publications: "publications"
-  Blog: "blog"
 
 # --- Logo --- #
 
@@ -41,9 +38,9 @@ social-network-links:
   email: "mailmmmmario@gmail.com"
   github: mario-mueller
   twitter: mmueller_
-  rss: true
+  linkedin: mario-müller-63098285
+# rss: true
 #  reddit: yourname
-#  linkedin: daattali
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -83,11 +80,11 @@ navbar-col: "#191308"
 navbar-text-col: "#FDFDFF"
 navbar-border-col: "#322A26"
 page-col: "#FDFDFF"
-link-col: "#FFA90A"
-hover-col: "#D23742"
+link-col: "#D23742"
+hover-col: "#8F1431"
 footer-col: "#322A26"
 footer-text-col: "#FDFDFF"
-footer-link-col: "#FFA90A"
+footer-link-col: "#D23742"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
@@ -180,9 +177,9 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
-      readtime: false # add estimated reading time on all blog posts
+      comments: false  # add comments to all blog posts
+      social-share: false # add social media sharing buttons to all blog posts
+      readtime: true # add estimated reading time on all blog posts
   -
     scope:
       path: "" # all files

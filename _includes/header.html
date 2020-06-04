@@ -43,6 +43,9 @@
             {% include readtime.html %}
           {% endif %}
       {% endif %}
+      {% if include.type == "publication" %}
+          <span class="post-meta">Published on {{ page.date | date: date_format }}</span>
+      {% endif %}
         </div>
       </div>
     </div>
